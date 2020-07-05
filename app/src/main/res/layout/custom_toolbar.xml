@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <!--<LinearLayout
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
@@ -31,14 +31,22 @@
 
             <TextView
                 android:id="@+id/tv_user_name"
-                android:layout_width="wrap_content"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
-                android:text="Muhammad Salar Abbasi"/>
+                android:text="Muhammad Salar Abbasi"
+                android:textSize="14sp"/>
 
-        </LinearLayout>
+        </LinearLayout>-->
 
-
-
+        <ImageView
+            android:id="@+id/iv_toolbar_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
 
         <TextView
             android:id="@+id/tv_toolbar_title"
